@@ -47,6 +47,21 @@
     justify-content: center;
 }
 
+div.form-builder--item.form-builder--item-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.form-builder--item.form-builder--item-input label {
+   flex: 0 0 100%;
+   text-align: center;
+}
+
+div.form-builder--item.form-builder--item-input div.option-radio {
+   flex: 0 0 45%;
+}
+
 
 #_builder-form .ghl-footer {
     background-color: #041d70 !important;
